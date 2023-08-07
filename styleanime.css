@@ -1,0 +1,98 @@
+.tout{
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://www.geekjunior.fr/wp-content/uploads/2021/01/538943.jpg);
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+.container{
+    width: 90%;
+    position: relative;
+    align-items: center;
+    justify-self: center;
+    background-color: white;
+    
+}
+#entete1{
+    margin-top: 0px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+}
+h1{
+    font-size: 35px;
+}
+.intro{
+    margin: 20px;
+}
+.ligne{
+    display: flex;
+    margin-top: 20px;
+}
+#section1{
+    text-align: left;
+    padding: 20px;
+    flex: 1;
+}
+#section2{
+    text-align: left;
+    position: relative;
+    flex: 2;
+    padding: 10px;
+    margin-top: 65px;
+    
+
+}
+
+#footer1{
+    background-color: #333;
+    color: whitesmoke;
+    margin-top: 20px;
+    position: relative;
+    text-align: center;
+    padding: 20px;
+}
+.article1{
+    margin: 5px;
+    padding: 5px;
+    color: rgb(55, 41, 99);
+}
+
+
+.go-to-top {
+    /* met tout le block cliquable */
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 10px;
+    z-index: 10;
+    line-height: 1.4;
+    /* meilleur rendu quand on passe la souris dessus */
+    transition: all 0.2s;
+    right: 10px;
+  }
+
+  /* quand on passe la souris dessus ce se met en rouge */
+  .go-to-top:hover {
+    background-color: #eb3349;
+  }
+  .go-to-top.active {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    visibility: visible;
+    opacity: 1;
+    z-index: 1001;
+  }
+  .fleche{
+    position: relative;
+    top: 0px;
+  }
